@@ -1,0 +1,9 @@
+<h1>Some info</h1>
+
+<p>Greetings! We have the best team in the world.</p>
+
+<p>There are <strong><%= @employees.count %></strong> employees in total.</p>
+
+<p>There are <strong><%= @employees.where(gender: 'male').count %></strong> male employees.</p>
+
+<p>There are <strong><%= @employees.where(gender: 'female').count %></strong> female employees which is cool!</p>
